@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include <unistd.h>
 /**
 * main - print to standard error
 * Description: print texts to standard error instead of stdout
