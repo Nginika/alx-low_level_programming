@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 * main - putchar without putchar or printf or puts
@@ -7,6 +7,8 @@
 
 int main(void)
 {
-	write(0, "_putchar", 8);
+	char c[8] = "_putchar";
+
+	_putchar(c[8]);
 	return (0);
 }
