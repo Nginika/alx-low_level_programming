@@ -13,7 +13,7 @@ int _abs(int n)
 	{
 		_putchar(n);
 
-		return (0);
+		return (n);
 	}
 	else
 	{
@@ -21,6 +21,6 @@ int _abs(int n)
 
 		_putchar(n);
 
-		return (-1);
+		return (n);
 	}
 }
