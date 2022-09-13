@@ -5,6 +5,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+int print_last_digit(int);
 int _abs(int);
 int print_sign(int n);
 void print_alphabet(void);
