@@ -3,7 +3,6 @@
 /**
 * print_alphabet - print alphabet using _putchar
 * Description: prints lowercase letters a-z
-* Return: 0 if error free
 */
 
 void print_alphabet(void)
@@ -15,5 +14,4 @@ void print_alphabet(void)
 
 	_putchar('\n');
 
-	return (0);
 }
