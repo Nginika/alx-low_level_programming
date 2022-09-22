@@ -1,4 +1,3 @@
-#include "main.h"
 int check_seperators(char c);
 
 /**
@@ -39,4 +38,5 @@ int check_seperators(char c)
 		if (c == seperators[i])
 			return (1);
 	}
+	return (0);
 }
