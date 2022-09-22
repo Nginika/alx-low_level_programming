@@ -5,11 +5,21 @@
 * @dest: destination to copy to
 * @src: string to copy
 * @n: number of bytes
+* Return: pointer to dest after copyimg
 */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i = 0, j = 0;
+	int j = 0;
 
-	while 
+	for (; j < n && src[j] != '\0'; j++)
+	{
+		dest[j] = src[j];
+	}
+	for (; j < n; j++)
+	{
+		dest[j] = '\0';
+	}
+
+	return (dest);
 }
