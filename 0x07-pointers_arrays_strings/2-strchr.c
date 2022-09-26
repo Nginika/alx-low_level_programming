@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
 * _strchr - search for a character
@@ -21,7 +20,7 @@ char *_strchr(char *s, char c)
 			break;
 		}
 		else
-			n = NULL;
+			n = '\0';
 	}
 	return (n);
 }
