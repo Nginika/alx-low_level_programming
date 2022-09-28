@@ -7,7 +7,7 @@ int _sqrt(int start, int root);
 * Return: -1 if no square root or the squareroot of n
 */
 
-int _sqr_recursion(int n);
+int _sqr_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
