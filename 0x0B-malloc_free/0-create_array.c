@@ -13,19 +13,22 @@ char *create_array(unsigned int size, char c)
 	char *A;
 	unsigned int i;
 
+	A = malloc(sizeof(char) * size);
+
 	if (size == 0)
 	{
 		return ('\0');
 	}
-	A = malloc(sizeof(char) * size);
+	
+	if (A == '\0')
+	{
+		return ('\0')
+	}
 
 	for (i = 0; i < size; i++)
 	{
 		A[i] = c;
 	}
-	if (A == NULL)
-	{
-		return ('\0');
-	}
+
 	return (A);
 }
