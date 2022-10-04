@@ -13,7 +13,7 @@ char *create_array(unsigned int size, char c)
 	char *A;
 	unsigned int i;
 
-	if (size == 0 || A == '\0')
+	if (size == 0)
 	{
 		return ('\0');
 	}
@@ -23,6 +23,9 @@ char *create_array(unsigned int size, char c)
 	{
 		A[i] = c;
 	}
-
+	if (A == NULL)
+	{
+		return ('\0');
+	}
 	return (A);
 }
