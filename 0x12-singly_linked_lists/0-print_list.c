@@ -3,7 +3,6 @@
 
 /**
  * print_list - prints all elements of the list
- * @list_t: linked list
  * @h: pointer to the next list
  * Return: the number of nodes
  */
