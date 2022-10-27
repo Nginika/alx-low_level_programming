@@ -2,7 +2,7 @@
 
 /**
  * binary_to_uint - converts a binary to unsigned int
- * @: pointer to a string to be converted
+ * @b: pointer to a string to be converted
  * Return: converted number, 0 if string is not binary, null if null
  */
 
@@ -15,10 +15,10 @@ unsigned int binary_to_uint(const char *b)
 
 	while (b[i])
 		i++;
-	
+
 	while (i)
 	{
-		if (b[i - 1] != '0' && b[i -1] != '1')
+		if (b[i - 1] != '0' && b[i - 1] != '1')
 			return (0);
 		if (b[i - 1] == '1')
 			con += base;
