@@ -170,9 +170,6 @@ void print_osabi(unsigned char *e_ident)
 			break;
 		default:
 			printf("<unknown: %x>\n", e_ident[EI_OSABI]);
-	break;
-		default:
-	printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 	}
 }
 
