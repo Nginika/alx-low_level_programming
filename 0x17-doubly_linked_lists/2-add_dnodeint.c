@@ -3,7 +3,7 @@
 /**
  * add_dnodeint - add a node to the beginning of the list
  * @head: head node
- * n: data in the new node
+ * @n: data in the new node
  * Return: the pointer to the new node
  */
 
