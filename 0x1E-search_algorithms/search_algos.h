@@ -1,6 +1,8 @@
 #ifndef SEARCH_ALGOS
 #define SEARCH_ALGOS
 
+#include <stdio.h>
+
 /**
  * struct listint_s - singly linked list
  *
@@ -10,8 +12,6 @@
  *
  * Description: singly linked list node structure
  */
-
-#include <stdio.h>
 
 typedef struct listint_s
 {
